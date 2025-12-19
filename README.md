@@ -40,4 +40,10 @@ wireless data transfer, and control logic using **MicroPython and Python**.
 - Smart embedded systems
 
 ## Academic Context
-Developed as part of a college IoT mini project in a previous semester.
+Developed as part of a college IoT mini project.
+
+## Code Structure
+- `pico_w/main.py` – MicroPython code running on Raspberry Pi Pico W.
+  Reads tilt sensor data and hosts a web interface.
+- `laptop/receiver.py` – Python program running on the laptop to receive
+  tilt data and control keyboard arrow keys.
